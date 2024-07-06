@@ -1,0 +1,38 @@
+body {
+    background-color: #d7d7d7;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, select, button {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0058ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0046cc;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+    text-align: left;
+}
